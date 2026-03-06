@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Jester's Roulette</title></title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+  <h1>𝕯𝖊𝖒𝖔𝖓'𝖘 𝖂𝖍𝖊𝖊𝖑</h1>
+
+  <div id="wheel">
+    <!-- Replace YOUR_IMAGE_NAME.png with the filename of your pentagram image -->
+    <img src="pentagram.png" alt="Pentagram">
+  </div>
+
+  <button id="rollButton" onclick="rollSpell()">Roll Spell</button>
+
+  <p id="count"></p>
+
+  <div class="card">
+    <h2 id="spellName">---</h2>
+    <div id="spellMeta"></div>
+    <p id="spellDescription"></p>
+    <a id="spellLink" target="_blank"></a>
+  </div>
+
+  <script src="scripts/spells-data.js"></script>
+  <script src="scripts/script.js"></script>
+
+</body>
+</html>
+    
