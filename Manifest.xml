@@ -1,0 +1,9 @@
+<manifest>
+<name>DND Spell Roller</name>
+<short_name>SpellRoller</short_name>
+<description>A D&D random spell roller app with a spinning pentagram wheel.</description>
+<start_url>index.html</start_url>
+<display>standalone</display>
+<background_color>#0a0a0a</background_color>
+<theme_color>#ff2a2a</theme_color>
+</manifest>
